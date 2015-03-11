@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    	<meta charset="utf-8">
+<meta name="author" content="hahnzhu" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/parallax-animation.css" type="text/css">
+    <link rel="stylesheet" href="css/parallax.css" type="text/css">
+
+</head>
+<body>
+   <!-- 这里的每个标签和每个类都是必须的 -->
+<div class="wrapper">
+    <div class="pages">
+            <div class="pages">
+
+        <!-- 第一屏 -->
+        
+        <div class="page">
+            <img src="img/1.png" alt="">
+            <!-- anything you want.... -->
+        </div>
+
+        <!-- 第二屏 -->
+        <div class="page">
+            <img src="img/2.png" alt="">
+        </div>
+
+        <!-- 第三屏 -->
+        <div class="page">
+            <img src="img/3.png" alt="">
+        </div>
+        <div class="page">
+            <img src="img/4.png" alt="">
+        </div>
+
+    </div>
+
+
+    </div>
+</div>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script>
+      $('.pages').parallax({
+        loading:   true,
+        indicator: true,
+        arrow:     true
+      }
+      );
+    </script>
+    
+</body>
+</html>
